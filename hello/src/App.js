@@ -5,12 +5,13 @@ import { Component } from 'react';
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
-
+import Counter from './components/Counter'
 
 function App() {
   return (
     <div className="App">
-      <Message/>
+      <Counter/>
+      {/* <Message/> */}
       {/* <Greet name="kartik" heroName="batman">
         <p>Hey! I am children</p>
       </Greet>
