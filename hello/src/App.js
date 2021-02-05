@@ -6,21 +6,30 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
     <div className="App">
-      {/* <Counter/>
-      <Message/> */}
-      <Greet name="kartik" heroName="batman">
+     
+      <FunctionClick />
+      <ClassClick />
+
+      {/* <Counter/> */}
+     
+      {/* <Message/> */}
+     
+      {/* <Greet name="kartik" heroName="batman">
         <p>Hey! I am children</p>
       </Greet>
-      {/* <Greet name="yash" heroName="superman">
+      <Greet name="yash" heroName="superman">
         <button>Action</button>
       </Greet> */}
 
-      <Welcome name="kartik" heroName="batman"></Welcome>
-      <Welcome name="yash" heroName="superman"></Welcome>
+      {/* <Welcome name="kartik" heroName="batman"></Welcome>
+      <Welcome name="yash" heroName="superman"></Welcome> */}
+    
     </div>
   );
 }
