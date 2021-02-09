@@ -1,21 +1,21 @@
 15 - METHODS AS PROPS
-
 -- how to pass method as props / how to access parent method from child
 -- how to give parameters to parent method
 -- pass method as props, call that method on particular event, if want to pass parameter then make arrow function structure to call the method
 -- keep in mind that we need function not function call on particular event
 
 16 - CONDITIONAL RENDERING
-
 if else
 element variable
 ternary operator
 short circuit operator
 
 17 - LIST RENDERING
-
 we can render list of objects using array.map
 as a parameter define elements u want to render
 if complext data is being rendered then create new component and pass data as props
 -- in FC, use {} to directly evaluate the props
 
+18 - LISTS AND KEYS
+while building lists, always mention key PROPS where each item will have the unique key
+KEY is a reserver props which is used for efficient UI update
