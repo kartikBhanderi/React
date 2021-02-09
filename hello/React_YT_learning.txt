@@ -12,3 +12,10 @@ element variable
 ternary operator
 short circuit operator
 
+17 - LIST RENDERING
+
+we can render list of objects using array.map
+as a parameter define elements u want to render
+if complext data is being rendered then create new component and pass data as props
+-- in FC, use {} to directly evaluate the props
+
