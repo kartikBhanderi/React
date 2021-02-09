@@ -4,3 +4,11 @@
 -- how to give parameters to parent method
 -- pass method as props, call that method on particular event, if want to pass parameter then make arrow function structure to call the method
 -- keep in mind that we need function not function call on particular event
+
+16 - CONDITIONAL RENDERING
+
+if else
+element variable
+ternary operator
+short circuit operator
+

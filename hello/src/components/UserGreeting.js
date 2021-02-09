@@ -12,12 +12,31 @@ class UserGreeting extends Component {
     
 
     render() {
-        if(this.state.isLoggedIn){
-            return <div>Welcome Kartik !</div>
-        }
-        else {
-            return <div>Welcome Guest</div>
-        }
+
+        return this.state.isLoggedIn && <div>Welcome kartik</div>
+
+        // return (
+        //     this.state.isLoggedIn ? 
+        //     <div>Welcome kartik</div> :
+        //     <div>Welcome guest</div>
+        // )
+
+        // let message
+        // if(this.state.isLoggedIn) {
+        //     message = <div>Welcome Kartik</div>
+        // }
+        // else {
+        //     message = <div>Welcome guest</div>
+        // }
+        // return message
+
+        // if(this.state.isLoggedIn){
+        //     return <div>Welcome Kartik !</div>
+        // }
+        // else {
+        //     return <div>Welcome Guest</div>
+        // }
+
         // return (
         //     <div>
         //         <div>Welcome Guest</div>
@@ -28,3 +47,8 @@ class UserGreeting extends Component {
 }
 
 export default UserGreeting
+
+// if else
+// element variable
+// ternary operator
+// short circuit operator
