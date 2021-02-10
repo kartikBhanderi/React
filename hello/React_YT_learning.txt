@@ -32,3 +32,7 @@ else if u want to use index then it should be static list and shouldn't be reord
  -- inline styling (key: value as a string)
  -- css modules (name.module.css) ex. className = styles.class_name and import file as name styles
  -- css in js libraries
+
+ 21 - BASICS OF FORM HANDLING
+  -- keep value of input as state variable and handle onchange event
+ 
