@@ -19,3 +19,9 @@ if complext data is being rendered then create new component and pass data as pr
 18 - LISTS AND KEYS
 while building lists, always mention key PROPS where each item will have the unique key
 KEY is a reserver props which is used for efficient UI update
+ 
+19 - INDEX AS KEY
+we can add INDEX parameter in arrow function and use it as a unique id for building the list
+but it may result into serious issues with data when u'll try to mess up with list
+so if list has unique feature then go with it
+else if u want to use index then it should be static list and shouldn't be reordered or filtered
