@@ -25,3 +25,10 @@ we can add INDEX parameter in arrow function and use it as a unique id for build
 but it may result into serious issues with data when u'll try to mess up with list
 so if list has unique feature then go with it
 else if u want to use index then it should be static list and shouldn't be reordered or filtered
+
+20 - CSS BASICS
+4 methods to apply CSS
+ -- stylesheets (external) use classes by className
+ -- inline styling (key: value as a string)
+ -- css modules (name.module.css) ex. className = styles.class_name and import file as name styles
+ -- css in js libraries
