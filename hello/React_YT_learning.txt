@@ -45,7 +45,21 @@ else if u want to use index then it should be static list and shouldn't be reord
 23 - MOUNTING LC METHODS 
   (in order)
     -- constructor(props) / call to base class's const then only we can use this.props / place to make state and bind events
-    -- statis getDerivedStateFromProps(props,state) / when state depends upon props
+    -- static getDerivedStateFromProps(props,state) / when state depends upon props
     -- render() / return jsx and shouldn't have any setState
     -- componentDidMount() / only once in LC, after all its children have been rendered to dom
 
+24 - UPDATING - LC METHODS
+  -- static getDerivedStateFromProps(props,state)
+  -- shouldComponentUpdate(nextProps, nextState) //component should be rerendered or not, default is true
+  -- render()
+  -- getSnapshotBeforeUpdate(prevProps, prevState) //  read current dom state
+  -- componentDidUpdate(nextProps, nextState, snapshot) // after render finished in re-render cycles, ONLY ONCE
+
+  UNMOUNTING
+  -- componentWillUnMount() //just before comp. is destroyed
+    cleanup tasks
+  
+  ERROR HANDLING
+  -- static getDerivedStateFromError(error)
+  -- componentDidCatch(error, info)
