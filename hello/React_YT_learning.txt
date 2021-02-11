@@ -63,3 +63,9 @@ else if u want to use index then it should be static list and shouldn't be reord
   ERROR HANDLING
   -- static getDerivedStateFromError(error)
   -- componentDidCatch(error, info)
+
+25 - REACT FRAGEMENTS
+  -- it let you add child elements without adding extra element in dom
+  -- as we have to grp multiple tags under one tag while returning,we can get rid of that unnecessary tag by REACT.FRAGEMENTS
+  -- as short hand operator, empty opening and closing tag can be used
+  -- REACT.FRAGEMENTS supports key attribute while building lists

@@ -18,39 +18,15 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
+import FragementDemo from './components/FragementDemo';
+import Table from './components/Table';
 
 function App() {
   return (
     <div className="App">
       
-      <LifeCycleA />
-      {/* <Form /> */}
-      {/* <h1 className={styles.success}>Success</h1>
-      <h1 className="error">Error</h1>
-      <Inline /> */}
-      {/* <Stylesheet  primary={true} /> */}
-      {/* <NameList /> */}
-      {/* <UserGreeting /> */}
-      {/* <ParentComponent />      */}
-      {/* <FunctionClick />
-      <ClassClick /> */}
-
-      {/* <EventBind/> */}
-
-      {/* <Counter/> */}
-     
-      {/* <Message/> */}
-     
-      {/* <Greet name="kartik" heroName="batman">
-        <p>Hey! I am children</p>
-      </Greet>
-      <Greet name="yash" heroName="superman">
-        <button>Action</button>
-      </Greet> */}
-
-      {/* <Welcome name="kartik" heroName="batman"></Welcome>
-      <Welcome name="yash" heroName="superman"></Welcome> */}
-    
+      <Table />
+     {/* <FragementDemo /> */}
     </div>
   );
 }
