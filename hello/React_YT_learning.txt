@@ -33,6 +33,19 @@ else if u want to use index then it should be static list and shouldn't be reord
  -- css modules (name.module.css) ex. className = styles.class_name and import file as name styles
  -- css in js libraries
 
- 21 - BASICS OF FORM HANDLING
+21 - BASICS OF FORM HANDLING
   -- keep value of input as state variable and handle onchange event
  
+22 - LIFECYCLE METHODS
+  mounting - when instance is created and inserted to dom
+  updating - while updating
+  unmountiong - while distroying
+  error handling - errors handling
+
+23 - MOUNTING LC METHODS 
+  (in order)
+    -- constructor(props) / call to base class's const then only we can use this.props / place to make state and bind events
+    -- statis getDerivedStateFromProps(props,state) / when state depends upon props
+    -- render() / return jsx and shouldn't have any setState
+    -- componentDidMount() / only once in LC, after all its children have been rendered to dom
+
