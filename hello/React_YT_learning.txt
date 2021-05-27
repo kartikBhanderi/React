@@ -91,3 +91,7 @@ else if u want to use index then it should be static list and shouldn't be reord
   -- it directly access the element, no need to use CURRENT
 
   
+29 - REF TO CLASS COMPONENT
+  -- ref with class component
+  -- focused input element from parent class
+  -- parent class called focusinput method

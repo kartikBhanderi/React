@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import './appStyles.css'
-import './components/Ref'
-import Ref from './components/Ref';
+import Focus from './components/Focus';
 
 function App() {
   return (
     <div className="App">
       
-      <Ref /> 
+      <Focus></Focus>
 
     </div>
   );
