@@ -69,3 +69,25 @@ else if u want to use index then it should be static list and shouldn't be reord
   -- as we have to grp multiple tags under one tag while returning,we can get rid of that unnecessary tag by REACT.FRAGEMENTS
   -- as short hand operator, empty opening and closing tag can be used
   -- REACT.FRAGEMENTS supports key attribute while building lists
+
+26 - PURE COMPONENTS
+  -- we can make a component by extending pure component
+  -- it implement shouldComponentUpdate and do shallow comaprision
+  -- in SC, for primitive types values and Data types should be getDerivedStateFromError
+  -- in complex types, reference to the object should be same
+  -- while working with CT, always return new DT otherwise ref would be same and hence
+     it would  not get updated
+  -- prevents unnecessary RENDERING
+
+27 - MEMO
+  -- similar to PURE COMPONENT but gives same functionalities to functional COMPONENTS
+  -- just export with `React.memo(compName)`
+  -- gives performance boost as it stops unnecessary RENDERING
+
+28 - REFS
+  -- can refer to any element in class component (ex. input tag)
+  -- create by - React.createRef()
+  -- callBackRef can also be created where it will be set by function and element will be referencing the function
+  -- it directly access the element, no need to use CURRENT
+
+  
