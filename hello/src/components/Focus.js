@@ -5,24 +5,21 @@ class Focus extends Component {
 
     constructor(props) {
         super(props)
-    
         this.currRef = React.createRef()
     }
-    
-    // focusInput() {
-    //     console.log('HI')
-    // }
 
     clickHandler = () => {
-        console.log(this.currRef)
-        this.currRef.current.focusInput()
+        if(this.currRef) {
+            this.currRef.current.focus()    
+        }
+        else console.log("Oh no")
     }
 
     render() {
         return (
             <div>
-                <Input></Input>
-                <button ref={this.currRef} onClick={this.clickHandler} > Focus Input</button>
+                <Input ref={this.currRef}/>
+                <button onClick={this.clickHandler} > Focus Input</button>
             </div>
         )
     }

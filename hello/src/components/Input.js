@@ -1,25 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Input extends Component {
 
-    constructor(props) {
-        super(props)
-    
-        this.currRef = React.createRef()
-    }
-    
-
-    focusInput = () => {
-        this.currRef.current.focus()
-    }
-
-    render() {
+const Input = React.forwardRef((props, ref) => {
         return (
             <div>
-                <input type="text" ref={this.currRef}></input>
+                <input type="text" ref={ref}></input>
             </div>
         )
-    } 
-}
+    }
+)
+
 
 export default Input
