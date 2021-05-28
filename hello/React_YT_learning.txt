@@ -95,3 +95,8 @@ else if u want to use index then it should be static list and shouldn't be reord
   -- ref with class component
   -- focused input element from parent class
   -- parent class called focusinput method
+
+30 - FORWARDING REF
+  -- forwarding ref of parent class to child class and directly referencing it in child class
+      using React.forwardRef method
+      
