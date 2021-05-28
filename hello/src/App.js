@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import './appStyles.css'
-import Focus from './components/Focus';
+import Temp from './components/Temp';
 
 function App() {
   return (
     <div className="App">
       
-      <Focus/>
+      <Temp></Temp>
 
     </div>
   );

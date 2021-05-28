@@ -99,4 +99,7 @@ else if u want to use index then it should be static list and shouldn't be reord
 30 - FORWARDING REF
   -- forwarding ref of parent class to child class and directly referencing it in child class
       using React.forwardRef method
-      
+
+31 - PORTALS IN REACT
+  -- child component outside main dome node - root
+  -- create own dom node and use ReactDome.createPortal to create a portal
